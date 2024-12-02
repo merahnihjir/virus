@@ -65,9 +65,10 @@ export const Navigation = ({ props, sticky, background }) => {
                         <span className="logoNavbar">Bouns'Bot</span>
                     </Link>
                     <div className="links">
-                        <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("title.DEMO MUSIC")}</Link>
-                        <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("title.PRIVACY POLICY")}</Link>
-                        <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("title.TERMS OF SERVICE")}</Link>
+                        <Link className="link" to="/" onClick={() => { eventClick() }}>{t("BACK HOME")}</Link>
+                        <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("DEMO MUSIC")}</Link>
+                        <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("PRIVACY POLICY")}</Link>
+                        <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("TERMS OF SERVICE")}</Link>
                         </div>
                 </div>
 
@@ -105,9 +106,10 @@ export const Navigation = ({ props, sticky, background }) => {
 
                         EtatConnexion.push(<div id="buttonToggleNav">
                             <div className={"navigationMenu " + (open ? "hidden" : "")}>
-                                <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("title.DEMO MUSIC")}</Link>
-                                <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("title.PRIVACY POLICY")}</Link>
-                                <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("title.TERMS OF SERVICE")}</Link>
+                                <Link className="link" to="/" onClick={() => { eventClick() }}>{t("BACK HOME")}</Link>
+                                <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("DEMO MUSIC")}</Link>
+                                <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("PRIVACY POLICY")}</Link>
+                                <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("TERMS OF SERVICE")}</Link>
 
                                 {(() => {
                                     let EtatConnexion = [];
