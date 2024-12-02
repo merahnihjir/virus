@@ -65,11 +65,10 @@ export const Navigation = ({ props, sticky, background }) => {
                         <span className="logoNavbar">Bouns'Bot</span>
                     </Link>
                     <div className="links">
-                        <Link className="link" to="/commands" onClick={() => { eventClick() }}>{t("title.commands")}</Link>
-                        <Link className="link" to="/level" onClick={() => { eventClick() }}>{t("title.levels")}</Link>
-                        <Link className="link" to="/status" onClick={() => { eventClick() }}>{t("title.status")}</Link>
-                        <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("title.demo")}</Link>
-                    </div>
+                        <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("title.DEMO MUSIC")}</Link>
+                        <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("title.PRIVACY POLICY")}</Link>
+                        <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("title.TERMS OF SERVICE")}</Link>
+                        </div>
                 </div>
 
                 <div className="compte">
