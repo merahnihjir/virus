@@ -106,9 +106,9 @@ export const Navigation = ({ props, sticky, background }) => {
 
                         EtatConnexion.push(<div id="buttonToggleNav">
                             <div className={"navigationMenu " + (open ? "hidden" : "")}>
-                                <Link className="link" to="/commands" onClick={() => { eventClick() }}>{t("title.commands")}</Link>
-                                <Link className="link" to="/level" onClick={() => { eventClick() }}>{t("title.levels")}</Link>
-                                <Link className="link" to="/status" onClick={() => { eventClick() }}>{t("title.status")}</Link>
+                                <Link className="link" to="/demo" onClick={() => { eventClick() }}>{t("title.DEMO MUSIC")}</Link>
+                                <Link className="link" to="/privacy" onClick={() => { eventClick() }}>{t("title.PRIVACY POLICY")}</Link>
+                                <Link className="link" to="/terms" onClick={() => { eventClick() }}>{t("title.TERMS OF SERVICE")}</Link>
 
                                 {(() => {
                                     let EtatConnexion = [];
